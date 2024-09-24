@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('./assets/bg.svg') no-repeat;
+    background-color: #27415c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .container {
+    width: 780px;
+    background-color: #17202a;
+    border-radius: 5px;
+  }
+  
+  .quiz_wrapper {
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .quiz_wrapper h3 {
+    font-weight: lighter;
+    font-size: 4rem;
+  }
+  
+  .quiz_wrapper h2 {
+    font-size: 3rem;
+  }
+  
+
+
+.btn {
+    margin-top: 2rem; /* Add space above the button */
+    outline: none;
+    border: none;
+    background-color: #229954;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+
+  
+.quiz_wrapper p {
+  margin: 1.5rem 0; /* Increased spacing between paragraphs */
+}
+  
+  .quiz .quiz_header {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .quiz .quiz_body {
+    padding: 2rem;
+  }
+  
+  .quiz .quiz_body li {
+    list-style-type: none;
+    margin: 1rem 0;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: #212f3d;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .quiz .quiz_body li:hover {
+    margin-left: 1rem;
+  }
+  
+  .quiz .quiz_body li.correct {
+    background-color: #229954; /* Green for correct */
+    margin-left: 1rem;
+    cursor: not-allowed;
+  }
+  
+  .quiz .quiz_body li.wrong {
+    background-color: red; /* Change this to red */
+    cursor: not-allowed;
+    color: white; /* White text for visibility */
+  }
+  
+  .quiz .quiz_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  
+  .finish_screen {
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .finish_screen p {
+    font-size: 2rem;
+  }
+  
+  .finish_screen button {
+    margin: 1rem 0;
+  }
+  
